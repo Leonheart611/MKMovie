@@ -2,7 +2,7 @@
 buildscript {
     ext {
         kotlin_version = "1.4.30"
-        navigationVersion = '2.2.0-rc02'
+        navigationVersion = '2.3.3'
         hiltVersion = '2.31.2-alpha'
         hiltAndroidXVersion = '1.0.0-alpha03'
         retrofitConverter = '0.8.0'
@@ -16,6 +16,8 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
         classpath "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
+        classpath 'com.google.gms:google-services:4.3.5'
+        classpath 'com.google.firebase:firebase-appdistribution-gradle:2.0.1'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }

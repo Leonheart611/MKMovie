@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MKMovie</string>
+    <string name="voteRating">%1$s%</string>
 </resources>
